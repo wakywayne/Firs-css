@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(252, 58, 236);
+}
+h2, p, a{
+    display:block;
+    text-align: center;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*.divide{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: coral;
+}*/
+.container{
+    width: 30em;
+    margin: 1em;
+    border: solid black 2px;
+    border-radius: 10%;
+    box-shadow: 5px 5px 15px 0px #ffffff;
+}
+#linc{
+    cursor: pointer; 
+}
+#box1{
+    background-color: rgba(255, 0, 0, 0.705);
+}
+#box2{
+    background-color: rgba(0, 183, 255, 0.705);
+}
+#box3{
+    background-color: rgba(251, 255, 0, 0.705);
+    padding-right: 1em;
+    position: absolute;
+    right: 5em;
+    top: 6%;
+}
+#box4{
+    background-color: rgba(0, 255, 64, 0.705);
+}
